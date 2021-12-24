@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  display: block;
+}
+
+.parent {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.hero_img {
+  margin-right: 100;
+  boarder-raduis: 50%;
+  align-items: flex-end;
+}
+.hero_description {
+    height: 200px;
+    width: 20%;
+
+}
+.card {
+  background-color: #FF5677;
+  height: 500;
+  width: 160;
+  background-position: center;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  position:absolute;
+}
+.first_card {
+  margin-right: 800px;
+}
+.third_card {
+  margin-left: 400px;
+}
+
+.zomato_phone {
+  background-color: #FFE3E3;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.zomato_phn {
+  display: block;
+  height: 500px;
+  width: 270px;
+  background-position: center;
+  position: relative;
+  margin: 20px;
+  margin-left: 100px;
+}
+.x {
+  position: relative;
+  margin-left: 90px;
+  margin-right: 0px;
+}
+
+.footer {
+
+
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 500px;
+  align-items: baseline;
+  justify-content: center;
+}
+.insta {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  margin: 20px;
+}
+.facebook {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  margin: 20px;
+}
+.twitter {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  margin: 20px;
+}
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafc;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  z-index: 9999;
+}
+.logo {
+  width: 40px;
+  height: 50px;
+}
+
+.div1 {
+  width: auto;
+  height: 200px;
+  background-color: #F14A16 #EC255A #FF1700;
+}
+
+logo {
+
+
+
+@media (min-width: 768px)
+.hero__container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+hero__container {
+    margin-top: 1rem;
+}
+
+
+}
+body {
+    font-family: "Merriweather", sans-serif;
+    background-color: #ebf2ff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.video_footage {
+  background-color: black;
+  left: -50;
+  height: 150px;
+  width: 100%;
+  transform: rotate(-40deg);
+}
